@@ -14,5 +14,5 @@ Key  Features :
 - Moderation Tools: Reporting and admin tools ensure appropriate content.
 - Responsive Design: Optimized for all devices.
 - Gamification: Badges and rewards for active users.
-- Sharing Options: Easy sharing to social media or embedding on websites.
+- Sharing Options: Easy sharing to social media or embedding on websites..
 
