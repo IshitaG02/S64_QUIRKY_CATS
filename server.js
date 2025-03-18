@@ -8,6 +8,11 @@ const PORT = process.env.PORT || 8000;
 // Middleware
 app.use(express.json());
 
+// Root Route (Fix for "Cannot GET /" error)
+app.get('/', (req, res) => {
+    res.send('MongoDB Atlas is connected to VS Code!');
+});
+
 // Test Route
 app.get('/ping', (req, res) => {
     try {
