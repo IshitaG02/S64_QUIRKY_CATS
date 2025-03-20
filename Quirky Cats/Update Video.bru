@@ -1,0 +1,20 @@
+meta {
+  name: Update Video
+  type: http
+  seq: 2
+}
+
+put {
+  url: http://localhost:8000/api/videos/67db09372dabe99bba16c8ec
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Even Funnier Cat Fails",
+    "description": "A cat hilariously rolling off the couch!",
+    "category": "Super Funny"
+  }
+  
+}
